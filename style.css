@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #000430;
+    --secondarybackground: #171c48;
+    --text:#fff;
+    --purple:#828dff;
+    --teal:#24feee;
+}
+
+body{
+    color: #fff;
+    background-image: url(nighthillneon.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 180px auto 0 auto;
+    max-width: 500px;
+    /* margin-left: 500px; */
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    /* width: 400px; */
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #3a47cd;
+    gap: 40px;
+    width: 100%;
+}
+
+.details {
+    width: 100%;
+}
+
+#progressbar {
+    width: 100%;
+    height: 10px;
+    background-color: #432574;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+#progress {
+    width: 70%;
+    height: 10px;
+    background-color: #24feee;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#numbers {
+    width: 100px;
+    height: 100px;
+    background-color: #828dff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #24feee;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+    outline: none;
+
+}
